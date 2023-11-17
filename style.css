@@ -129,10 +129,10 @@ body{
 
 /* Footer */
 
-footer{
+#footer {
     background: black;
     color: white;
-    padding: 60px 0;
+    padding: 70px 0;
     
 }
 
@@ -144,17 +144,20 @@ footer{
     
 }
 
-#footer .footer-content .footer-menu{
+#footer .footer-content .footer-menu {
     margin: 0 15px;
     list-style: none;
-    padding: 20px;
+
 }
+
+
 #footer .footer-content .footer-menu{
     width: 230px;
 }
 
 #footer .footer-content .footer-menu .footer-menu-item{
     margin: 20px 0;
+    padding-right: 50px;
     transition: all 300ms ease;
 }
 
@@ -177,7 +180,7 @@ footer{
 /* Footer Soials */
 
 .socials{
-    display: inline-block;
+    display: flex;
 }
 
 .socials i{
@@ -197,7 +200,7 @@ footer{
 
 /* Footer info */
 
-.footer-info{
+.footer-info {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -209,44 +212,57 @@ footer{
     padding-top: 50px;
 }
 
-.footer-info .footer-info-items{
+.footer-info-items{
     display: flex;
     list-style: none;
-    
+    margin-right: 100px;
+
 }
 
-.footer-info .footer-info-items .footer-info-item{
-    margin: 10px;
+.footer-info-item{
+    margin: 0 20px;
+    transition: all 300ms ease;
+ 
+}
+
+.footer-info-items .footer-info-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
 }
 
 
-.footer-info .rights .country{
+.rights .country {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.footer-info .rights .country a{
+
+
+.rights .country a{
     transition: all 300ms ease;
     text-decoration: none;
     color: var(--default-gray);
-    
+    margin-left: 10px;
 }
 
-.footer-info .rights .country a:hover{
+.rights p{
+    color: var(--default-gray);
+    text-align: end;
+    padding-right: 80px;
+}
+
+.rights .country a:hover{
     color: var(--default-green);
     cursor: pointer;
 
 }
 
 
-
-.footer-info .rights .country .brazil-flag{
+.rights .country .brazil-flag{
     height: 20px;
     width: auto;
-    display: inline-block;
-    margin-left: 10px;
-
-
+    display: flex;
+    padding-right: 80px;    
 }
