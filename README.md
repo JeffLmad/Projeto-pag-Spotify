@@ -18,6 +18,7 @@ Navegue até o diretório onde você deseja clonar o repositório.
 Clone o Repositório:
 
 Use o comando git clone seguido pelo URL que você copiou do GitHub. Por exemplo, se você estiver usando HTTPS, seria algo assim:
+
 git clone https://github.com/nomeUsuario/nomeRepositorio.git
 
 Depois é só executar no VSCODE
